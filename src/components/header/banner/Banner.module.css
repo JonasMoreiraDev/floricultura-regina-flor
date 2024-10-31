@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+}
+
+.texto_banner {
+    position: absolute;
+    background-color: #014b3fe0;
+    padding: 30px 50px;
+    top: 110px;
+    box-shadow: 8px 11px 18px 7px rgba(0, 0, 0, 0.726);
+}
+
+.texto_banner h1 {
+    font-size: 50px;
+    font-family: "Lobster", serif;
+    font-style: italic;
+    color: white;
+    text-shadow: -6px 10px 5px black, 3px 3px 3px gray;
+}
+
+.BtnWppBanner {
+    position: absolute;
+    bottom: 80px;
+    border: none;
+    padding: 20px 30px ;
+    cursor: pointer;
+    background-color: #014B3F;
+    transition: 0.3s;
+    box-shadow: 8px 11px 18px 7px rgba(0, 0, 0, 0.856);
+}
+
+.BtnWppBanner a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.BtnWppBanner:hover {
+    background-color: rgb(2, 202, 129);
+    transform: scale(1.1);
+}
+
