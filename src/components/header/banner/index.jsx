@@ -3,18 +3,18 @@ import Link from "next/link";
 import ImgFundo from "/public/Regina-Flor.png"
 import Image from "next/image"; 
 import { FaWhatsapp } from "react-icons/fa";
+import banner1 from "/public/banner.png"
 
 export default function Banner() {
     return(
         <section className={style.banner}>
-            <Image src={ImgFundo} alt="imgFundo"/>
-            <div className={style.texto_banner}>
-                <h1>Espalhando beleza e carinho em cada arranjo.</h1>
-            </div>
+          <Image src={banner1} alt="banner"/>
 
-            <button className={style.BtnWppBanner}>
-                <Link href="/"><FaWhatsapp size={30} />Faça seu Pedido Via WhatsApp!</Link>
-            </button>
+          <Link className={style.BtnWppBanner} href="#">
+          <FaWhatsapp size={30} /> 
+          Peça pelo WhatsApp!
+          </Link>
+        
         </section>
     )
 }
