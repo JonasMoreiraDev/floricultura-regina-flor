@@ -1,0 +1,81 @@
+
+.secao_categorias {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.container_botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.box_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.box_btn {
+    transform: scale(1.10);
+}
+
+
+.container_botoes button {
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: .2s;
+    border: 3px solid rgb(221, 219, 219);
+    cursor: pointer;
+}
+
+.container_botoes img {
+    width: 60px;
+    object-fit: contain;
+    border-radius: 100%;
+    
+}
+
+.container_botoes button:hover {
+    background-color: #014B3F;
+    transform: scale(1.10);
+}
+
+.acenderBtn {
+    background-color: #014B3F;
+}
+
+.container_botoes span {
+    color: rgb(128, 126, 126);
+}
+
+@media (max-width: 480px) {
+    .container_botoes {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 10px;
+        gap: 10px;
+    }
+    .container_botoes button{
+        width: 55px;
+        height: 55px;
+    }
+
+    .container_botoes img {
+        width: 40px;
+    }
+    
+    .container_botoes span {
+        font-size: 14px;
+    }
+}

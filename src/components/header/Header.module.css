@@ -53,3 +53,26 @@
     height: auto;
 }
 
+.menumob {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .menuDesktop {
+        display: none;
+    }
+    
+    .limitar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logoTopo {
+        width: 100px;
+    }
+
+    .menumob {
+        color: white;
+    }
+}
+

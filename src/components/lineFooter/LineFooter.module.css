@@ -1,0 +1,19 @@
+.footer {
+    background-color: #1D0E03;
+    color: #F1ECE4;
+    padding: 8px 7px;
+    text-align: center;
+}
+
+.footer a {
+    color: #F1ECE4;
+} 
+
+
+@media (max-width: 480px) {
+    .footer {
+        position: absolute;
+        bottom: -1110%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,31 @@
+.secao_banner {
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.boxBanner {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.banner {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 480px) {
+    .banner {
+        margin-top: 10px;
+        width: 480px;
+        height: 120px;
+    }
+
+}
+
+
+
