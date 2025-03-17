@@ -1,9 +1,10 @@
-import styles from "./Footer.module.css"
+import styles from "./Footer.module.css";
 import Link from "next/link";
+
 
 export default function Footer() {
   return (
-    <footer className={styles.information} id="information">
+    <section className={styles.information} id="information">
       <div className={`${styles.information_content} ${styles.hours}`} >
         <h3>
           H O R Á R I O &nbsp; D E <br/>
@@ -57,7 +58,7 @@ export default function Footer() {
           loading="lazy"
         ></iframe>
       </div>
-    </footer>
+    </section>
 
   );
 }

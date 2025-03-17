@@ -16,7 +16,7 @@ export const Container = styled.section`
     justify-content: center;
 
     background: rgb(17,17,17);
-    background: linear-gradient(90deg, rgba(17,17,17,0.9724264705882353) 29%, rgba(50,49,49,0.9640231092436975) 65%, rgba(138,136,136,0.9248074229691877) 93%);
+    background: linear-gradient(90deg, rgba(13, 77, 34, 0.79) 29%, rgba(4, 58, 4, 0.7) 65%, rgba(14, 145, 14, 0.56) 93%);
 
     opacity: 0;
     pointer-events: none;
@@ -48,7 +48,7 @@ export const Container = styled.section`
      }
 
      a:hover {
-        color: red;
+        color: #004D40;
         transform: scale(1.10);
      }
           

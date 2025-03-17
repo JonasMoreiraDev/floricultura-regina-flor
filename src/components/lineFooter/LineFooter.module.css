@@ -9,6 +9,17 @@
     color: #F1ECE4;
 } 
 
+.btnUp {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    color: black;
+  }
+  
+  .btnUp:hover {
+    color: #014B3F;
+  }
+
 
 @media (max-width: 480px) {
     .footer {

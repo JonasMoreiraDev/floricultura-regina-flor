@@ -1,8 +1,10 @@
-import style from "./Header.module.css"
-import Image from "next/image"
-import Logo from "/public/Logo Regina Flor.png"
-import Link from "next/link"
-import { MdMenu } from "react-icons/md"
+'use client'
+import style from "./Header.module.css";
+import Image from "next/image";
+import Logo from "/public/Logo Regina Flor.png";
+import Link from "next/link";
+import { MdMenu } from "react-icons/md";
+import { useState } from "react";
 
 export default function Header({ setMenuIsVisible }){
     return(

@@ -31,7 +31,10 @@ export default function Home() {
   
  return (
   <>
-    <Header />
+    <Header 
+    setMenuIsVisible={setMenuIsVisible}
+    />
+
     <Banner />
     <main className={style.main}>
       
@@ -64,7 +67,8 @@ export default function Home() {
     <MenuMobile  
       menuIsVisible={menuIsVisible}
       setMenuIsVisible={setMenuIsVisible}
-      />
+    />
+
   </>
  );
 }

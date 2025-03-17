@@ -54,8 +54,10 @@
 }
 
 .menumob {
-    display: none;
+    display: none
 }
+
+
 
 @media (max-width: 480px) {
     .menuDesktop {
@@ -72,7 +74,12 @@
     }
 
     .menumob {
+        display: flex;
         color: white;
+        cursor: pointer;
     }
 }
 
+@media (min-width: 481px) and (max-width: 991px) {
+    
+}

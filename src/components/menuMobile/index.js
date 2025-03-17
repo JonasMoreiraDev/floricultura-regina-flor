@@ -9,10 +9,10 @@ export default function MenuMobile({ menuIsVisible, setMenuIsVisible }) {
       <IoClose size={45} onClick={() => setMenuIsVisible(false)} />
 
       <nav>
-        <Link href="#home">Home</Link>
-        <Link href="/catalogo">Catálogo</Link>
-        <Link href="/eventos">Eventos</Link>
-        <Link href="#contato">Contato</Link>
+        <Link href="/" onClick={() => setMenuIsVisible(false)}>Home</Link>
+        <Link href="/catalogo" onClick={() => setMenuIsVisible(false)}>Catálogo</Link>
+        <Link href="/eventos" onClick={() => setMenuIsVisible(false)}>Eventos</Link>
+        <Link href="#information" onClick={() => setMenuIsVisible(false)}>Contato</Link>
       </nav>
     </Container>
   );
