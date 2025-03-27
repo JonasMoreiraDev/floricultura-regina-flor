@@ -21,8 +21,11 @@
 @media (max-width: 480px) {
     .banner {
         margin-top: 10px;
-        width: 480px;
+        width: 100%;
+        max-width: 480px;
         height: 120px;
+        max-height: 200px;
+        object-fit: cover;
     }
 
 }
@@ -30,15 +33,15 @@
 @media (min-width: 481px) and (max-width: 991px) {
     .banner {
         margin-top: 10px;
-        width: 700px;
-        height: 150px;
+        max-width: 990px;
+        height: 210px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .banner {
         margin-top: 10px;
-        width: 1000px;
+        max-width: 1199px;
         height: 350px;
     }
 }
