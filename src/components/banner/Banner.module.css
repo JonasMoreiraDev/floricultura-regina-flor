@@ -27,5 +27,20 @@
 
 }
 
+@media (min-width: 481px) and (max-width: 991px) {
+    .banner {
+        margin-top: 10px;
+        width: 700px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner {
+        margin-top: 10px;
+        width: 1000px;
+        height: 350px;
+    }
+}
 
 

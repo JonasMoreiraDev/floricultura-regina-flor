@@ -23,9 +23,15 @@
     left: 120px;
 }
 
+
 @media (max-width: 480px) {
     .icone {
         left: 50px;
         
+    }
+}
+@media (min-width: 481px) and (max-width: 992px) {
+    .icone {
+        left: 60px;
     }
 }

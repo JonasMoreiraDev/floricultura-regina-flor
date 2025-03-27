@@ -3,13 +3,12 @@ import Header from "@/components/header";
 import Banner from "@/components/banner";
 import CampoDeBusca from "@/components/CampoBusca";
 import BtnCategoria from "@/components/btnCategoria";
-import Footer from "@/components/footer";
-import LineFooter from "@/components/lineFooter";
 import MenuMobile from "@/components/menuMobile";
 import style from "./page.module.css"
 import { useState } from "react";
 import { produtosEntradas, filtrarProdutos, buscarProduto } from "./services";
 import CardProduto from "@/components/cardProduto";
+import Information from "@/components/Information";
 
 export default function Home() {
   const [dadosFiltrados, setDadosFiltrados] = useState(produtosEntradas);
@@ -61,8 +60,7 @@ export default function Home() {
       </section>
 
     </main>
-    <Footer />
-    <LineFooter />
+    <Information />
 
     <MenuMobile  
       menuIsVisible={menuIsVisible}

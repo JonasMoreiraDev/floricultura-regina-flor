@@ -15,6 +15,7 @@ export default function CardProduto( { produto }) {
       <div className={styles.box_descricao}>
         <h3>{produto.title}</h3>
           <p>R${produto.price},00</p>
+          <span>*Os preços podem variar</span>
           <button className={styles.btnwpp}> 
             <Link href={"https://wa.me/5521986391328"} target="_blank"> <FaWhatsapp size={15}/> Peça pelo WhatsApp</Link>
           </button>

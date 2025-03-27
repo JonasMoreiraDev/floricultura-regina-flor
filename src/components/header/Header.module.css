@@ -59,7 +59,7 @@
 
 
 
-@media (max-width: 480px) {
+@media(max-width: 480px) {
     .menuDesktop {
         display: none;
     }
@@ -80,6 +80,21 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 991px) {
-    
+@media (min-width: 481px) and (max-width: 992px) {
+    .menuDesktop {
+        display: none;   
+    }
+    .menumob {
+        display: flex;
+        color: white;
+    }
+    .logoTopo {
+        width: 120px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+    .logoTopo {
+        width: 170px;
+    }
 }

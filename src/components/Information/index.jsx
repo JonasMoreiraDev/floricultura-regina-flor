@@ -1,8 +1,10 @@
-import styles from "./Footer.module.css";
+import styles from "./Information.module.css";
 import Link from "next/link";
+import { FaCircleArrowUp } from "react-icons/fa6";
+import WhatsAppButton from "../wppButton/WhatsAppButton";
 
 
-export default function Footer() {
+export default function Information() {
   return (
     <section className={styles.information} id="information">
       <div className={`${styles.information_content} ${styles.hours}`} >
@@ -58,7 +60,19 @@ export default function Footer() {
           loading="lazy"
         ></iframe>
       </div>
+
+
+      <footer className={styles.footer}>
+        <p>Site Desevolvido por <Link href="https://www.instagram.com/jonasmoreira_dev/" target="_blank">Jonas Moreira</Link></p>
+
+        <Link href="/" className={styles.linkUp}>
+        <FaCircleArrowUp size={35} className={styles.btnUp} />
+        </Link>
+
+        <WhatsAppButton phoneNumber={5521986391328} message={"Olá! "}/>
+   </footer>
     </section>
+    
 
   );
 }

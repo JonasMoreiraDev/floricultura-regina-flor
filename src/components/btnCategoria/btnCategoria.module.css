@@ -59,23 +59,50 @@
     color: rgb(128, 126, 126);
 }
 
+
 @media (max-width: 480px) {
     .container_botoes {
         display: flex;
         flex-wrap: wrap;
-        padding: 0px 10px;
-        gap: 10px;
+        padding: 0 20px;
+        margin: 0 auto;
     }
+
     .container_botoes button{
         width: 55px;
         height: 55px;
     }
 
     .container_botoes img {
-        width: 40px;
+        width: 35px;
     }
     
     .container_botoes span {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+    .container_botoes {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 30px;
+    }
+    .container_botoes button {
+        width: 75px;
+        height: 75px;
+    }
+    .container_botoes img {
+        width: 50px;
+    }
+    .container_botoes span {
         font-size: 14px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+    .container_botoes button {
+        width: 100px;
+        height: 100px;
     }
 }
