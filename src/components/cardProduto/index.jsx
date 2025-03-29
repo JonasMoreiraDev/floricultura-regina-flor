@@ -9,7 +9,7 @@ export default function CardProduto( { produto }) {
     <div className={styles.card}>
 
         <figure className={styles.box_img}>
-          <Image src={Rosas} alt="Rosas"/>
+          <Image src={produto.imagem} alt="Rosas"/>
         </figure>
 
       <div className={styles.box_descricao}>
